@@ -1,0 +1,272 @@
+[
+  {
+    "image": "https://play-lh.googleusercontent.com/74iMObG1vsR3Kfm82RjERFhf99QFMNIY211oMvN636_gULghbRBMjpVFTjOK36oxCbs=w240-h480-rw",
+    "title": "LINE",
+    "companyName": "LINE Corporation",
+    "id": 1,
+    "description": "Messaging, calls, social & more",
+    "size": 70.0,
+    "reviews": 14000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 1500000 },
+      { "name": "5 star", "count": 2850000 }
+    ]
+  },
+  {
+    "image": "https://d1xsi6mgo67kia.cloudfront.net/uploads/2021/10/whatsapp.png",
+    "title": "WhatsApp",
+    "companyName": "Meta Platforms",
+    "id": 2,
+    "description": "Chat, voice & video calls",
+    "size": 60.0,
+    "reviews": 50000000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 33000000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/74iMObG1vsR3Kfm82RjERFhf99QFMNIY211oMvN636_gULghbRBMjpVFTjOK36oxCbs=w240-h480-rw",
+    "title": "LINE Chat Icon Example",
+    "companyName": "Icons8 (sample)",
+    "id": 3,
+    "description": "Sample icon from Icons8",
+    "size": 10.0,
+    "reviews": 100,
+    "ratingAvg": 4.0,
+    "downloads": 5000,
+    "ratings": [
+      { "name": "1 star", "count": 2 },
+      { "name": "2 star", "count": 3 },
+      { "name": "3 star", "count": 10 },
+      { "name": "4 star", "count": 30 },
+      { "name": "5 star", "count": 55 }
+    ]
+  },
+  {
+    "image": "https://media.wired.com/photos/5926ffe47034dc5f91bed4e8/master/pass/google-logo.jpg",
+    "title": "Google",
+    "companyName": "Google LLC",
+    "id": 4,
+    "description": "Search, services & more",
+    "size": 50.0,
+    "reviews": 20000000,
+    "ratingAvg": 4.6,
+    "downloads": 4000000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 14200000 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/free-vector/instagram-logo_1199-122.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "Instagram",
+    "companyName": "Meta Platforms",
+    "id": 5,
+    "description": "Photo & video sharing social network",
+    "size": 45.0,
+    "reviews": 25000000,
+    "ratingAvg": 4.4,
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 16800000 }
+    ]
+  },
+  {
+    "image": "https://store-images.microsoft.com/image/apps.57874.9007199266244427.12d00104-ac5d-4406-ad7b-66f678d54e19.e9fa7d2a-16a1-437c-bbd5-cf0e4e2d2c70",
+    "title": "Twitter",
+    "companyName": "X Corp (formerly Twitter)",
+    "id": 6,
+    "description": "Microblogging & social networking",
+    "size": 30.0,
+    "reviews": 18000000,
+    "ratingAvg": 4.2,
+    "downloads": 1500000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 11000000 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1662070479020-73f77887c87c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFjZWJvb2slMjBsb2dvfGVufDB8fDB8fHww",
+    "title": "Facebook",
+    "companyName": "Meta Platforms",
+    "id": 7,
+    "description": "Social network, posts, groups, pages",
+    "size": 55.0,
+    "reviews": 30000000,
+    "ratingAvg": 4.3,
+    "downloads": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 8000000 },
+      { "name": "5 star", "count": 20900000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/NN8G4Xc03GSv2_Tu-icuoeOwSo1xoZ4ouzUl24fVlwm5OeIAo7gV0zS1dVRWgCay-BU",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 8,
+    "description": "Video sharing & streaming platform",
+    "size": 60.0,
+    "reviews": 22000000,
+    "ratingAvg": 4.7,
+    "downloads": 2500000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 350000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 14700000 }
+    ]
+  },
+  {
+    "image": "https://media.designrush.com/inspirations/540509/conversions/apple-logo-design-preview.jpg",
+    "title": "Apple",
+    "companyName": "Apple Inc.",
+    "id": 9,
+    "description": "Technology & devices maker",
+    "size": 40.0,
+    "reviews": 12000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 6500000 }
+    ]
+  },
+  {
+    "image": "https://www.logo.wine/a/logo/Spotify/Spotify-Icon-Logo.wine.svg",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 10,
+    "description": "Music streaming & podcasts",
+    "size": 35.0,
+    "reviews": 16000000,
+    "ratingAvg": 4.4,
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 9000000 }
+    ]
+  },
+  {
+    "image": "https://www.logo.wine/a/logo/Dropbox_(service)/Dropbox_(service)-Icon-Logo.wine.svg",
+    "title": "Dropbox",
+    "companyName": "Dropbox, Inc.",
+    "id": 11,
+    "description": "Cloud storage & file sharing",
+    "size": 25.0,
+    "reviews": 5000000,
+    "ratingAvg": 4.3,
+    "downloads": 800000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 1500000 },
+      { "name": "5 star", "count": 3100000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation",
+    "id": 12,
+    "description": "Professional networking",
+    "size": 20.0,
+    "reviews": 7000000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 4500000 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/free-psd/social-media-logo-design_23-2151296966.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 13,
+    "description": "Short video platform",
+    "size": 28.0,
+    "reviews": 14000000,
+    "ratingAvg": 4.4,
+    "downloads": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 8300000 }
+    ]
+  },
+  {
+    "image": "https://download.logo.wine/logo/Telegram_(software)/Telegram_(software)-Logo.wine.png",
+    "title": "Telegram",
+    "companyName": "Telegram Messenger",
+    "id": 14,
+    "description": "Messaging with focus on speed & privacy",
+    "size": 22.0,
+    "reviews": 11000000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 180000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 7500000 }
+    ]
+  },
+  {
+    "image": "https://images.seeklogo.com/logo-png/37/1/jetpack-logo-png_seeklogo-370172.png",
+    "title": "Medium",
+    "companyName": "Medium Corporation",
+    "id": 15,
+    "description": "Blogging & reading platform",
+    "size": 18.0,
+    "reviews": 3000000,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 2550000 }
+    ]
+  }
+]
