@@ -61,7 +61,7 @@ const Apps = () => {
           ))}
         </div>
       ) : (
-        <p className="text-center text-[#6832e4] text-xl font-semibold my-10">
+        <p className="text-center text-[#6832e4] text-5xl font-bold my-10">
           No App Found
         </p>
       )}
