@@ -1,27 +1,9 @@
 [
   {
-    "image": "https://play-lh.googleusercontent.com/74iMObG1vsR3Kfm82RjERFhf99QFMNIY211oMvN636_gULghbRBMjpVFTjOK36oxCbs=w240-h480-rw",
-    "title": "LINE",
-    "companyName": "LINE Corporation",
-    "id": 1,
-    "description": "Messaging, calls, social & more",
-    "size": 70.0,
-    "reviews": 14000000,
-    "ratingAvg": 4.3,
-    "downloads": 1000000000,
-    "ratings": [
-      { "name": "1 star", "count": 200000 },
-      { "name": "2 star", "count": 150000 },
-      { "name": "3 star", "count": 500000 },
-      { "name": "4 star", "count": 1500000 },
-      { "name": "5 star", "count": 2850000 }
-    ]
-  },
-  {
     "image": "https://d1xsi6mgo67kia.cloudfront.net/uploads/2021/10/whatsapp.png",
     "title": "WhatsApp",
     "companyName": "Meta Platforms",
-    "id": 2,
+    "id": 1,
     "description": "Chat, voice & video calls",
     "size": 60.0,
     "reviews": 50000000,
@@ -36,28 +18,10 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/74iMObG1vsR3Kfm82RjERFhf99QFMNIY211oMvN636_gULghbRBMjpVFTjOK36oxCbs=w240-h480-rw",
-    "title": "LINE Chat Icon Example",
-    "companyName": "Icons8 (sample)",
-    "id": 3,
-    "description": "Sample icon from Icons8",
-    "size": 10.0,
-    "reviews": 100,
-    "ratingAvg": 4.0,
-    "downloads": 5000,
-    "ratings": [
-      { "name": "1 star", "count": 2 },
-      { "name": "2 star", "count": 3 },
-      { "name": "3 star", "count": 10 },
-      { "name": "4 star", "count": 30 },
-      { "name": "5 star", "count": 55 }
-    ]
-  },
-  {
     "image": "https://media.wired.com/photos/5926ffe47034dc5f91bed4e8/master/pass/google-logo.jpg",
     "title": "Google",
     "companyName": "Google LLC",
-    "id": 4,
+    "id": 2,
     "description": "Search, services & more",
     "size": 50.0,
     "reviews": 20000000,
@@ -72,10 +36,10 @@
     ]
   },
   {
-    "image": "https://img.freepik.com/free-vector/instagram-logo_1199-122.jpg?semt=ais_hybrid&w=740&q=80",
+    "image": "https://i.ibb.co.com/tw7wLH85/ins.png",
     "title": "Instagram",
     "companyName": "Meta Platforms",
-    "id": 5,
+    "id": 3,
     "description": "Photo & video sharing social network",
     "size": 45.0,
     "reviews": 25000000,
@@ -90,10 +54,10 @@
     ]
   },
   {
-    "image": "https://store-images.microsoft.com/image/apps.57874.9007199266244427.12d00104-ac5d-4406-ad7b-66f678d54e19.e9fa7d2a-16a1-437c-bbd5-cf0e4e2d2c70",
+    "image": "https://i.ibb.co.com/sdTLYmLP/image.png",
     "title": "Twitter",
     "companyName": "X Corp (formerly Twitter)",
-    "id": 6,
+    "id": 4,
     "description": "Microblogging & social networking",
     "size": 30.0,
     "reviews": 18000000,
@@ -108,10 +72,10 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1662070479020-73f77887c87c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFjZWJvb2slMjBsb2dvfGVufDB8fDB8fHww",
+    "image": "https://i.ibb.co.com/zT23Jss6/image.png",
     "title": "Facebook",
     "companyName": "Meta Platforms",
-    "id": 7,
+    "id": 5,
     "description": "Social network, posts, groups, pages",
     "size": 55.0,
     "reviews": 30000000,
@@ -126,10 +90,10 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/NN8G4Xc03GSv2_Tu-icuoeOwSo1xoZ4ouzUl24fVlwm5OeIAo7gV0zS1dVRWgCay-BU",
+    "image": "https://i.ibb.co.com/vyVmpfV/youtube-app-icon-hd.webp",
     "title": "YouTube",
     "companyName": "Google LLC",
-    "id": 8,
+    "id": 6,
     "description": "Video sharing & streaming platform",
     "size": 60.0,
     "reviews": 22000000,
@@ -147,7 +111,7 @@
     "image": "https://media.designrush.com/inspirations/540509/conversions/apple-logo-design-preview.jpg",
     "title": "Apple",
     "companyName": "Apple Inc.",
-    "id": 9,
+    "id": 7,
     "description": "Technology & devices maker",
     "size": 40.0,
     "reviews": 12000000,
@@ -165,7 +129,7 @@
     "image": "https://www.logo.wine/a/logo/Spotify/Spotify-Icon-Logo.wine.svg",
     "title": "Spotify",
     "companyName": "Spotify AB",
-    "id": 10,
+    "id": 8,
     "description": "Music streaming & podcasts",
     "size": 35.0,
     "reviews": 16000000,
@@ -183,7 +147,7 @@
     "image": "https://www.logo.wine/a/logo/Dropbox_(service)/Dropbox_(service)-Icon-Logo.wine.svg",
     "title": "Dropbox",
     "companyName": "Dropbox, Inc.",
-    "id": 11,
+    "id": 9,
     "description": "Cloud storage & file sharing",
     "size": 25.0,
     "reviews": 5000000,
@@ -201,7 +165,7 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
     "title": "LinkedIn",
     "companyName": "LinkedIn Corporation",
-    "id": 12,
+    "id": 10,
     "description": "Professional networking",
     "size": 20.0,
     "reviews": 7000000,
@@ -216,10 +180,10 @@
     ]
   },
   {
-    "image": "https://img.freepik.com/free-psd/social-media-logo-design_23-2151296966.jpg?semt=ais_hybrid&w=740&q=80",
+    "image": "https://i.ibb.co.com/nshWw9zL/image.png",
     "title": "TikTok",
     "companyName": "ByteDance",
-    "id": 13,
+    "id": 11,
     "description": "Short video platform",
     "size": 28.0,
     "reviews": 14000000,
@@ -237,7 +201,7 @@
     "image": "https://download.logo.wine/logo/Telegram_(software)/Telegram_(software)-Logo.wine.png",
     "title": "Telegram",
     "companyName": "Telegram Messenger",
-    "id": 14,
+    "id": 12,
     "description": "Messaging with focus on speed & privacy",
     "size": 22.0,
     "reviews": 11000000,
@@ -249,24 +213,6 @@
       { "name": "3 star", "count": 400000 },
       { "name": "4 star", "count": 3000000 },
       { "name": "5 star", "count": 7500000 }
-    ]
-  },
-  {
-    "image": "https://images.seeklogo.com/logo-png/37/1/jetpack-logo-png_seeklogo-370172.png",
-    "title": "Medium",
-    "companyName": "Medium Corporation",
-    "id": 15,
-    "description": "Blogging & reading platform",
-    "size": 18.0,
-    "reviews": 3000000,
-    "ratingAvg": 4.3,
-    "downloads": 500000000,
-    "ratings": [
-      { "name": "1 star", "count": 80000 },
-      { "name": "2 star", "count": 50000 },
-      { "name": "3 star", "count": 150000 },
-      { "name": "4 star", "count": 700000 },
-      { "name": "5 star", "count": 2550000 }
     ]
   }
 ]

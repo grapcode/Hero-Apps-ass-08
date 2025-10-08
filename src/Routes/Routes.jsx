@@ -3,6 +3,7 @@ import Home from '../Pages/Home';
 import MainLayout from '../Layouts/MainLayout';
 import Apps from '../Pages/Apps';
 import Installation from '../Pages/Installation';
+import CardDetails from '../Pages/CardDetails';
 
 export const routes = createBrowserRouter([
   {
@@ -12,7 +13,7 @@ export const routes = createBrowserRouter([
       {
         index: true,
         element: <Home />,
-        loader: () => fetch('/appsData.json'),
+        // loader: () => fetch('/appsData.json'),
       },
       {
         path: '/apps',
@@ -21,6 +22,10 @@ export const routes = createBrowserRouter([
       {
         path: '/installation',
         element: <Installation />,
+      },
+      {
+        path: '/cardDetails/:id',
+        element: <CardDetails />,
       },
     ],
   },

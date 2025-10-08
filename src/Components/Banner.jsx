@@ -1,9 +1,11 @@
 import React from 'react';
 import hero from '../assets/hero.png';
+import gp from '../assets/google_p.svg';
+import as from '../assets/app_s.png';
 
 const Banner = () => {
   return (
-    <div className="py-6">
+    <div className="py-6 ">
       <div className="text-center space-y-3  ">
         <h1 className="text-4xl font-bold">We Build Productive Apps</h1>
         <p>
@@ -11,11 +13,15 @@ const Banner = () => {
           simpler, smarter, and more exciting. Our goal is to turn your ideas
           into digital experiences that truly make an impact.
         </p>
-        <button className="btn m-3">Google Play</button>
-        <button className="btn m-3">App Store</button>
+        <button className="btn m-3">
+          <img className="w-12" src={gp} alt="" /> Google Play
+        </button>
+        <button className="btn m-3">
+          <img className="w-6" src={as} alt="" /> App Store
+        </button>
         <img className="mx-auto mt-8" src={hero} alt="" />
       </div>
-      <div className="bg-linear-to-r from-[#632EE3] to-[#9F62F2] p-5 text-white text-center w-screen -mx-[calc((100vw-100%)/2)] ">
+      <div className="bg-linear-to-r from-[#632EE3] to-[#9F62F2] p-5 text-white text-center w-screen -mx-[calc((100vw-100%)/2)]  ">
         <h2 className="text-3xl font-bold">
           Trusted by Millions, Built for You
         </h2>

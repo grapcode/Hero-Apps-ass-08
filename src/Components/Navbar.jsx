@@ -46,16 +46,24 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <img className="w-8" src={logoimg} alt="" />
-        <a className="btn btn-ghost font-bold text-2xl bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text">
-          HERO.IO
-        </a>
+        <Link to="/">
+          <div className="flex btn btn-ghost">
+            <img className="w-8" src={logoimg} alt="" />
+            <p className=" font-bold text-2xl bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text">
+              HERO.IO
+            </p>
+          </div>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn text-white bg-linear-to-r from-[#632EE3] to-[#9F62F2]">
+        <a
+          target="_blank"
+          href="https://github.com/grapcode"
+          className="btn text-white bg-linear-to-r from-[#632EE3] to-[#9F62F2]"
+        >
           <Github /> Contribute
         </a>
       </div>
