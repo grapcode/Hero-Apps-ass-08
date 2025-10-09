@@ -89,7 +89,7 @@ const Installation = () => {
           >
             <figure className="p-3">
               <img
-                className="w-40 h-28 object-cover rounded-2xl"
+                className="w-40 h-28 object-cover rounded-2xl p-2"
                 src={p.image}
                 alt={p.name}
               />
@@ -120,24 +120,6 @@ const Installation = () => {
           </div>
         ))}
       </div>
-
-      {/* 📊 chart */}
-      {/* <div className="space-y-3">
-        <h3 className="text-xl font-semibold">Wishlist Summery</h3>
-        <div className="bg-base-100 border rounded-xl p-4 h-80">
-          <ResponsiveContainer width="100%" height="100%">
-            <BarChart data={chartData}>
-              <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="category" />
-              <YAxis />
-              <Tooltip />
-              <Legend />
-
-              <Bar dataKey="total" fill="#82ca9d" />
-            </BarChart>
-          </ResponsiveContainer>
-        </div>
-      </div> */}
     </div>
   );
 };

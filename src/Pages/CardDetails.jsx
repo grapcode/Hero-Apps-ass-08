@@ -3,6 +3,18 @@ import { useParams } from 'react-router';
 import useAppsData from '../Hooks/useAppsData';
 import { Download, Star, UserStar } from 'lucide-react';
 import { toast } from 'react-toastify';
+import {
+  Area,
+  Bar,
+  CartesianGrid,
+  ComposedChart,
+  Legend,
+  Line,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from 'recharts';
 
 const CardDetails = () => {
   const { id } = useParams();
@@ -23,6 +35,7 @@ const CardDetails = () => {
     ratingAvg,
     reviews,
     description,
+    ratings,
   } = item;
   //   console.log(item);
 
@@ -46,16 +59,21 @@ const CardDetails = () => {
   };
 
   //    📊 chart  data
+  const chartData = ratings || [];
 
   return (
     <section>
-      <div className="card card-side bg-base-100 shadow-sm my-5">
+      {/* ✨ Details Card */}
+
+      <div className="card card-side my-5 p-5">
         <figure>
-          <img className="h-40" src={image} alt="Movie" />
+          <img className="h-64" src={image} alt="Movie" />
         </figure>
         <div className="card-body">
           <h2 className="card-title">{title}</h2>
-          <p>{companyName}</p>
+          <p className="border-b border-gray-300 pb-3">
+            Developed by: <span className="text-purple-700">{companyName}</span>
+          </p>
           {/* icons 3 */}
           <div className="p-4 flex gap-16">
             <div className=" space-y-2">
@@ -92,7 +110,39 @@ const CardDetails = () => {
           </button>
         </div>
       </div>
-      <p className="py-5">{description}</p>
+
+      {/* //    📊 chart  data */}
+
+      <div className="space-y-5 border-b border-gray-300 border-t my-6 p-5">
+        <h3 className="text-lg font-semibold">Ratings Distribution</h3>
+        <div className="h-96">
+          <ResponsiveContainer width="100%" height="100%">
+            <ComposedChart
+              layout="vertical"
+              width={500}
+              height={400}
+              data={chartData}
+              margin={{
+                top: 20,
+                right: 20,
+                bottom: 20,
+                left: 20,
+              }}
+            >
+              <CartesianGrid stroke="#f5f5f5" />
+              <XAxis type="number" />
+              <YAxis dataKey="name" type="category" scale="band" />
+              <Tooltip />
+              <Legend />
+              <Area dataKey="amt" fill="#8884d8" stroke="#8884d8" />
+              <Bar dataKey="count" barSize={20} fill="#ff8811" />
+              <Line dataKey="uv" stroke="#8884d8" />
+            </ComposedChart>
+          </ResponsiveContainer>
+        </div>
+      </div>
+      <h3 className="text-lg font-semibold">Description</h3>
+      <p className="py-5 text-gray-500">{description}</p>
     </section>
   );
 };

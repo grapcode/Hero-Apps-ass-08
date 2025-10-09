@@ -17,9 +17,11 @@ const Home = () => {
 
       <div className="my-5 text-center space-y-3">
         <h1 className="text-3xl font-bold">Trending Apps</h1>
-        <p>Explore All Trending Apps on the Market developed by us</p>
+        <p className="px-3">
+          Explore All Trending Apps on the Market developed by us
+        </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-10 py-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-10 py-6">
         {trendingData.map((data) => (
           <Card key={data.id} data={data}></Card>
         ))}
