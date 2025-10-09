@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import useAppsData from '../Hooks/useAppsData';
 import Card from './Card';
+import Loading from '../Components/Loading';
 
 const Apps = () => {
   // 🔗 hook theke data load
-  const { items } = useAppsData();
+  const { items, loading } = useAppsData();
   // console.log(appsData);
 
   // ⚡search work
@@ -54,16 +55,22 @@ const Apps = () => {
           />
         </label>
       </div>
-      {searchItems.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-10 py-10">
-          {searchItems.map((data) => (
-            <Card key={data.id} data={data}></Card>
-          ))}
-        </div>
+      {loading ? (
+        <Loading />
       ) : (
-        <p className="text-center text-[#6832e4] text-5xl font-bold my-10">
-          No App Found
-        </p>
+        <div>
+          {searchItems.length > 0 ? (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-10 py-10">
+              {searchItems.map((data) => (
+                <Card key={data.id} data={data}></Card>
+              ))}
+            </div>
+          ) : (
+            <p className="text-center text-[#6832e4] text-5xl font-bold my-10">
+              No App Found
+            </p>
+          )}
+        </div>
       )}
     </section>
   );

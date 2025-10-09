@@ -4,11 +4,13 @@ import MainLayout from '../Layouts/MainLayout';
 import Apps from '../Pages/Apps';
 import Installation from '../Pages/Installation';
 import CardDetails from '../Pages/CardDetails';
+import ErrorPage from '../Pages/ErrorPage';
 
 export const routes = createBrowserRouter([
   {
     path: '/',
     element: <MainLayout />,
+
     children: [
       {
         index: true,
@@ -26,6 +28,10 @@ export const routes = createBrowserRouter([
       {
         path: '/cardDetails/:id',
         element: <CardDetails />,
+      },
+      {
+        path: '*',
+        element: <ErrorPage />,
       },
     ],
   },

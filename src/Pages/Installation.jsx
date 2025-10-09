@@ -1,5 +1,6 @@
 import { Download, Star } from 'lucide-react';
 import React, { useEffect, useState } from 'react';
+import { toast } from 'react-toastify';
 
 const Installation = () => {
   const [installList, setInstallList] = useState([]);
@@ -37,7 +38,7 @@ const Installation = () => {
     }
   })();
 
-  // 🔰 remove from wishlist
+  // 🔰 remove from installed apps
   const handleRemove = (id) => {
     const existingList = JSON.parse(localStorage.getItem('install'));
 
@@ -45,6 +46,7 @@ const Installation = () => {
     //  for ui instant update
     setInstallList(updatedList);
     localStorage.setItem('install', JSON.stringify(updatedList));
+    toast.info('♻️Uninstalled from your Device');
   };
 
   if (!installList.length)

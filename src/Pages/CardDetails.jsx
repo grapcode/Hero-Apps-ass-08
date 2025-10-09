@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
-import { useParams } from 'react-router';
+import React, { useEffect, useState } from 'react';
+import { Link, useParams } from 'react-router';
 import useAppsData from '../Hooks/useAppsData';
 import { Download, Star, UserStar } from 'lucide-react';
 import { toast } from 'react-toastify';
+import appError from '../assets/App-Error.png';
 import {
   Area,
   Bar,
@@ -15,6 +16,7 @@ import {
   XAxis,
   YAxis,
 } from 'recharts';
+import Loading from '../Components/Loading';
 
 const CardDetails = () => {
   const { id } = useParams();
@@ -22,11 +24,39 @@ const CardDetails = () => {
   const { items, loading } = useAppsData();
   //   console.log(items);
 
+  // ⚡ install btn work
   const [isInstalled, setIsInstalled] = useState(false);
 
+  useEffect(() => {
+    const installed = localStorage.getItem(`installed_${id}`);
+    if (installed === 'true') {
+      setIsInstalled(true);
+    }
+  }, [id]);
+
   const item = items.find((p) => String(p.id) === id);
-  if (loading)
-    return <span className="loading loading-spinner loading-xl"></span>;
+  if (loading) return <Loading />;
+
+  // ⚡ item na paile
+  if (!item) {
+    return (
+      <div className="flex flex-col items-center gap-5 justify-center mb-5 mt-20">
+        <img src={appError} alt="" />
+
+        <h1 className="text-3xl font-semibold">OPPS!! APP NOT FOUND</h1>
+        <p>
+          The App you are requesting is not found on our system. please try
+          another apps
+        </p>
+        <Link to="/">
+          <button className="btn text-white bg-linear-to-r px-6 from-[#632EE3] to-[#9F62F2]">
+            Go Back!
+          </button>
+        </Link>
+      </div>
+    );
+  }
+
   const {
     image,
     title,
@@ -36,6 +66,7 @@ const CardDetails = () => {
     reviews,
     description,
     ratings,
+    size,
   } = item;
   //   console.log(item);
 
@@ -43,6 +74,7 @@ const CardDetails = () => {
 
   const handleInstallBtn = () => {
     setIsInstalled(true);
+    localStorage.setItem(`installed_${id}`, 'true');
 
     const existingList = JSON.parse(localStorage.getItem('install'));
     // console.log(existingList);
@@ -106,7 +138,7 @@ const CardDetails = () => {
             }`}
             disabled={isInstalled}
           >
-            {isInstalled ? 'Installed' : 'Install Now'}
+            {isInstalled ? 'Installed ' : `Install Now (${size} MB)`}
           </button>
         </div>
       </div>

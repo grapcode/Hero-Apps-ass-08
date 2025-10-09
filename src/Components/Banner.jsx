@@ -10,7 +10,7 @@ const Banner = () => {
         <h1 className="text-2xl md:text-2xl md:text-4xl font-bold">
           We Build Productive Apps
         </h1>
-        <p className="px-5">
+        <p className="px-5 text-gray-600">
           At HERO.IO, we craft innovative apps designed to make everyday life
           simpler, smarter, and more exciting. Our goal is to turn your ideas
           into digital experiences that truly make an impact.
