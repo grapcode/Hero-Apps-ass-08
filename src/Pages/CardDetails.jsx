@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router';
 import useAppsData from '../Hooks/useAppsData';
-import { Download, Star, UserStar } from 'lucide-react';
+import { Download, UserStar } from 'lucide-react';
 import { toast } from 'react-toastify';
 import appError from '../assets/App-Error.png';
 import {
@@ -17,6 +17,7 @@ import {
   YAxis,
 } from 'recharts';
 import Loading from '../Components/Loading';
+import { FaStar } from 'react-icons/fa';
 
 const CardDetails = () => {
   const { id } = useParams();
@@ -31,6 +32,8 @@ const CardDetails = () => {
     const installed = localStorage.getItem(`installed_${id}`);
     if (installed === 'true') {
       setIsInstalled(true);
+    } else {
+      setIsInstalled(false);
     }
   }, [id]);
 
@@ -107,7 +110,7 @@ const CardDetails = () => {
             Developed by: <span className="text-purple-700">{companyName}</span>
           </p>
           {/* icons 3 */}
-          <div className="p-4 flex gap-16">
+          <div className="p-2 flex gap-16">
             <div className=" space-y-2">
               <span className="text-green-500">
                 <Download size={35} />
@@ -117,7 +120,7 @@ const CardDetails = () => {
             </div>
             <div className=" space-y-2">
               <span className="text-orange-500">
-                <Star size={35} />
+                <FaStar size={35} />
               </span>
               <p>Average Ratings</p>
               <h3 className="text-4xl font-bold">{ratingAvg}</h3>

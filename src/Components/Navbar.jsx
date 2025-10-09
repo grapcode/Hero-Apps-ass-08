@@ -1,22 +1,50 @@
-import React from 'react';
-import { Link } from 'react-router';
+import { Link, NavLink } from 'react-router';
 import logoimg from '../assets/logo.png';
 import { Github } from 'lucide-react';
 
 const Navbar = () => {
   const links = (
     <>
-      <Link to="/">
-        <li className="m-2 font-semibold bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text">
-          Home
-        </li>
-      </Link>
-      <Link to="/apps">
-        <li className="m-2">Apps</li>
-      </Link>
-      <Link to="/installation">
-        <li className="m-2">Installation</li>
-      </Link>
+      <NavLink
+        to="/"
+        className={({ isActive }) =>
+          `m-2 font-semibold ${
+            isActive
+              ? ' underline bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text'
+              : 'text-black'
+          }`
+        }
+      >
+        Home
+      </NavLink>
+      <NavLink
+        to="/apps"
+        className={({ isActive }) =>
+          `m-2 font-semibold ${
+            isActive
+              ? ' underline bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text'
+              : 'text-black'
+          }`
+        }
+      >
+        Apps
+      </NavLink>
+      <NavLink
+        to="/installation"
+        className={({ isActive }) =>
+          `m-2 font-semibold ${
+            isActive
+              ? ' underline bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text'
+              : 'text-black'
+          }`
+        }
+      >
+        Installation
+      </NavLink>
+
+      {/* <Link to="/installation">
+        <li className="m-2 font-semibold ">Installation</li>
+      </Link> */}
     </>
   );
   return (

@@ -1,5 +1,6 @@
-import { Download, Star } from 'lucide-react';
+import { Download } from 'lucide-react';
 import React from 'react';
+import { FaStar } from 'react-icons/fa';
 import { Link } from 'react-router';
 
 const Card = ({ data }) => {
@@ -23,8 +24,8 @@ const Card = ({ data }) => {
           <p className="flex gap-2 bg-[#f1f5e8] py-1 px-2 rounded-sm font-semibold text-green-500">
             <Download /> {downloads}
           </p>
-          <p className="flex gap-2 bg-[#fff0e1] py-1 px-2 rounded-sm font-semibold text-orange-500">
-            <Star />
+          <p className="flex items-center gap-2 bg-[#fff0e1] py-1 px-2 rounded-sm font-semibold text-orange-500">
+            <FaStar />
             {ratingAvg}
           </p>
         </div>

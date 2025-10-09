@@ -1,10 +1,11 @@
-import { Download, Star } from 'lucide-react';
+import { Download } from 'lucide-react';
 import React, { useEffect, useState } from 'react';
+import { FaStar } from 'react-icons/fa';
 import { toast } from 'react-toastify';
 
 const Installation = () => {
   const [installList, setInstallList] = useState([]);
-  console.log(installList);
+  // console.log(installList);
 
   const [sortOrder, setSortOrder] = useState('none');
 
@@ -46,6 +47,8 @@ const Installation = () => {
     //  for ui instant update
     setInstallList(updatedList);
     localStorage.setItem('install', JSON.stringify(updatedList));
+    // remove installed key
+    localStorage.removeItem(`installed_${id}`);
     toast.info('♻️Uninstalled from your Device');
   };
 
@@ -57,7 +60,7 @@ const Installation = () => {
     );
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 mb-8">
       <div className="my-5 text-center space-y-3">
         <h1 className="text-3xl font-bold">Your Installed Apps</h1>
         <p>Explore All Trending Apps on the Market developed by us</p>
@@ -103,7 +106,7 @@ const Installation = () => {
                   <Download size={20} /> {p.downloads}
                 </p>
                 <p className="flex gap-1 py-1 px-2 rounded-sm font-semibold text-orange-500">
-                  <Star size={20} />
+                  <FaStar size={20} />
                   {p.ratingAvg}
                 </p>
                 <p className="flex gap-1 py-1 px-2 rounded-sm font-semibold text-gray-700">

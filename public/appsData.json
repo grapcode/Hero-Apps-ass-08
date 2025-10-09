@@ -1,20 +1,20 @@
 [
   {
-    "image": "https://d1xsi6mgo67kia.cloudfront.net/uploads/2021/10/whatsapp.png",
+    "image": "https://i.ibb.co.com/3Yk7y5wQ/image.png",
     "title": "WhatsApp",
     "companyName": "Meta Platforms",
     "id": 1,
-    "description": "Chat, voice & video calls. Stay connected with friends and family around the world. Share photos, videos, and documents instantly. Create group chats and broadcast messages. Enjoy end-to-end encryption for secure conversations. Use WhatsApp Web to chat from your computer. Send voice messages or make conference calls effortlessly.",
+    "description": "Chat, voice & video calls. WhatsApp is one of the most popular messaging apps that allows users to communicate instantly across the world. It provides end-to-end encryption for all messages, ensuring your privacy and security. Users can share photos, videos, documents, and even live locations with friends and family. The app also supports group chats for up to thousands of participants. WhatsApp Web enables messaging directly from your computer browser. With WhatsApp Business, companies can interact professionally with customers. Frequent updates improve security, usability, and media quality.",
     "size": 60.0,
     "reviews": "50K",
     "ratingAvg": 4.5,
     "downloads": "5M",
     "ratings": [
-      { "name": "1 star", "count": 800000 },
-      { "name": "2 star", "count": 500000 },
-      { "name": "3 star", "count": 2000000 },
+      { "name": "5 star", "count": 33000000 },
       { "name": "4 star", "count": 15000000 },
-      { "name": "5 star", "count": 33000000 }
+      { "name": "3 star", "count": 2000000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "1 star", "count": 800000 }
     ]
   },
   {
@@ -22,17 +22,17 @@
     "title": "Google",
     "companyName": "Google LLC",
     "id": 2,
-    "description": "Search, services & more. Find information quickly on the web. Access Google Maps, Gmail, and Drive seamlessly. Get personalized search results. Use Google Lens to explore visually. Discover news, weather, and trending topics. Explore Google Photos for storing and organizing memories. Use Google Assistant for hands-free help anytime.",
+    "description": "Search, services & more. Google is the world’s most widely used search engine, offering instant access to millions of results on any topic. It also integrates with various services like Gmail, Drive, Maps, Photos, and YouTube. The company focuses on providing fast, relevant, and personalized results to each user. Google Assistant offers hands-free voice search and smart device control. Its cloud and AI technologies help developers and businesses achieve efficiency. Google constantly innovates to make knowledge more accessible and organized for everyone worldwide.",
     "size": 50.0,
     "reviews": "20K",
     "ratingAvg": 4.6,
     "downloads": "4M",
     "ratings": [
-      { "name": "1 star", "count": 300000 },
-      { "name": "2 star", "count": 200000 },
-      { "name": "3 star", "count": 800000 },
+      { "name": "5 star", "count": 14200000 },
       { "name": "4 star", "count": 5000000 },
-      { "name": "5 star", "count": 14200000 }
+      { "name": "3 star", "count": 800000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "1 star", "count": 300000 }
     ]
   },
   {
@@ -40,17 +40,17 @@
     "title": "Instagram",
     "companyName": "Meta Platforms",
     "id": 3,
-    "description": "Photo & video sharing social network. Connect with friends and follow influencers. Share stories, reels, and posts easily. Explore trending hashtags and content. Engage with likes, comments, and direct messages. Use filters and editing tools for creative posts. Discover IGTV for long videos and shopping directly on the platform.",
+    "description": "Photo & video sharing social network. Instagram allows users to share moments through pictures, reels, and stories. It connects people through creativity and lifestyle expression. The app offers filters, editing tools, and hashtags to enhance visibility. Users can explore trends through the Explore tab and follow favorite creators. Instagram also supports business profiles, insights, and advertising options for brands. With messaging and live video features, it enhances interaction and engagement. The platform regularly adds new features to improve user experience and creativity.",
     "size": 45.0,
     "reviews": "25M",
     "ratingAvg": 4.4,
     "downloads": "2K",
     "ratings": [
-      { "name": "1 star", "count": 400000 },
-      { "name": "2 star", "count": 300000 },
-      { "name": "3 star", "count": 1000000 },
+      { "name": "5 star", "count": 16800000 },
       { "name": "4 star", "count": 7000000 },
-      { "name": "5 star", "count": 16800000 }
+      { "name": "3 star", "count": 1000000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "1 star", "count": 400000 }
     ]
   },
   {
@@ -58,17 +58,17 @@
     "title": "Twitter",
     "companyName": "X Corp (formerly Twitter)",
     "id": 4,
-    "description": "Microblogging & social networking. Share thoughts and updates in short messages. Follow news, trends, and favorite personalities. Retweet, like, and comment on posts easily. Participate in live discussions with hashtags. Use Twitter Spaces for live audio conversations. Customize notifications and explore topics of interest daily.",
+    "description": "Microblogging & social networking. Twitter, now known as X, is a fast-paced platform where users share short messages called posts. It’s a space for real-time updates, trending news, and public conversations. Users can follow topics, hashtags, and influencers worldwide. The platform encourages freedom of expression and global dialogue. It supports multimedia posts with images, GIFs, and videos. With the introduction of X Premium, advanced features like longer posts and monetization became available. The platform continues to evolve toward a digital media ecosystem.",
     "size": 30.0,
     "reviews": "18K",
     "ratingAvg": 4.2,
     "downloads": "1.5M",
     "ratings": [
-      { "name": "1 star", "count": 500000 },
-      { "name": "2 star", "count": 300000 },
-      { "name": "3 star", "count": 1200000 },
+      { "name": "5 star", "count": 11000000 },
       { "name": "4 star", "count": 5000000 },
-      { "name": "5 star", "count": 11000000 }
+      { "name": "3 star", "count": 1200000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "1 star", "count": 500000 }
     ]
   },
   {
@@ -76,17 +76,17 @@
     "title": "Facebook",
     "companyName": "Meta Platforms",
     "id": 5,
-    "description": "Social network, posts, groups, pages. Connect with friends, family, and communities. Share updates, photos, and videos effortlessly. Join groups and events to interact with people. Discover pages for entertainment, news, and hobbies. Use Marketplace to buy and sell products locally. Engage in live videos, polls, and stories with ease.",
+    "description": "Social network, posts, groups, pages. Facebook connects billions of users globally for sharing posts, photos, and life updates. It enables people to create pages, groups, and events to interact with communities. Businesses can promote products and run ads to reach target audiences. Facebook Live and Stories enhance personal engagement and creativity. It also integrates messaging via Messenger and marketplace for local buying and selling. With continuous updates, Facebook focuses on user safety and data protection. Its influence on communication and marketing remains unmatched worldwide.",
     "size": 55.0,
     "reviews": "30K",
     "ratingAvg": 4.3,
-    "downloads": "33M",
+    "downloads": "788M",
     "ratings": [
-      { "name": "1 star", "count": 600000 },
-      { "name": "2 star", "count": 400000 },
-      { "name": "3 star", "count": 1500000 },
+      { "name": "5 star", "count": 20900000 },
       { "name": "4 star", "count": 8000000 },
-      { "name": "5 star", "count": 20900000 }
+      { "name": "3 star", "count": 1500000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "1 star", "count": 600000 }
     ]
   },
   {
@@ -94,17 +94,17 @@
     "title": "YouTube",
     "companyName": "Google LLC",
     "id": 6,
-    "description": "Video sharing & streaming platform. Watch videos on any topic imaginable. Upload your own videos to share with the world. Subscribe to channels and get notifications for new content. Use playlists to organize favorite videos. Explore YouTube Shorts for quick, entertaining clips. Engage with comments, likes, and live streams. Discover educational tutorials and entertainment alike.",
+    "description": "Video sharing & streaming platform. YouTube is the largest video platform where users can watch, upload, and share videos for free. It supports entertainment, education, music, and live streaming. Creators can monetize their channels through ads and memberships. Users can subscribe to channels and receive notifications for new uploads. YouTube Premium offers ad-free viewing and offline downloads. The platform’s recommendation system personalizes content for every user. With Shorts and Community features, YouTube promotes creative freedom and global communication.",
     "size": 60.0,
     "reviews": "22K",
     "ratingAvg": 4.7,
-    "downloads": "250M",
+    "downloads": "805M",
     "ratings": [
-      { "name": "1 star", "count": 500000 },
-      { "name": "2 star", "count": 350000 },
-      { "name": "3 star", "count": 1500000 },
+      { "name": "5 star", "count": 14700000 },
       { "name": "4 star", "count": 6000000 },
-      { "name": "5 star", "count": 14700000 }
+      { "name": "3 star", "count": 1500000 },
+      { "name": "2 star", "count": 350000 },
+      { "name": "1 star", "count": 500000 }
     ]
   },
   {
@@ -112,17 +112,17 @@
     "title": "Apple",
     "companyName": "Apple Inc.",
     "id": 7,
-    "description": "Technology & devices maker. Design and create innovative products like iPhone, iPad, and Mac. Develop software and services for seamless integration. Focus on user-friendly interfaces and premium build quality. Offer App Store with millions of applications. Provide customer support and repair services worldwide. Innovate in wearable devices like Apple Watch. Lead in ecosystem connectivity for smart devices.",
+    "description": "Technology & devices maker. Apple Inc. is one of the world’s most valuable technology companies, known for innovation and design excellence. It produces iconic products such as the iPhone, MacBook, iPad, and Apple Watch. The company’s software ecosystem includes macOS, iOS, and iCloud, ensuring seamless synchronization. Apple emphasizes user privacy, environmental sustainability, and quality craftsmanship. The App Store connects millions of developers with global users. Its services like Apple Music, TV+, and Arcade continue expanding its digital footprint. Apple remains a symbol of premium technology and creativity.",
     "size": 40.0,
     "reviews": "12K",
     "ratingAvg": 4.5,
     "downloads": "10M",
     "ratings": [
-      { "name": "1 star", "count": 300000 },
-      { "name": "2 star", "count": 200000 },
-      { "name": "3 star", "count": 800000 },
+      { "name": "5 star", "count": 6500000 },
       { "name": "4 star", "count": 5000000 },
-      { "name": "5 star", "count": 6500000 }
+      { "name": "3 star", "count": 800000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "1 star", "count": 300000 }
     ]
   },
   {
@@ -130,17 +130,17 @@
     "title": "Spotify",
     "companyName": "Spotify AB",
     "id": 8,
-    "description": "Music streaming & podcasts. Listen to millions of songs anytime and anywhere. Create playlists for personal moods and activities. Discover new artists with personalized recommendations. Enjoy podcasts on diverse topics from education to entertainment. Share music with friends and follow favorite artists. Use offline mode to enjoy content without internet. Integrate with smart speakers and devices for easy listening.",
+    "description": "Music streaming & podcasts. Spotify is the leading platform for streaming millions of songs and podcasts online. It allows users to explore music from every genre and artist worldwide. Personalized playlists and AI-based recommendations make the experience unique. The app supports offline downloads for premium users. Spotify also enables creators to share and monetize their podcasts. With social features, users can share playlists and follow friends’ activity. Its global reach and continuous innovation make it a favorite for music lovers. The interface is sleek, intuitive, and regularly updated for better usability.",
     "size": 35.0,
     "reviews": "16K",
     "ratingAvg": 4.4,
-    "downloads": "2M",
+    "downloads": "22M",
     "ratings": [
-      { "name": "1 star", "count": 400000 },
-      { "name": "2 star", "count": 300000 },
-      { "name": "3 star", "count": 1000000 },
+      { "name": "5 star", "count": 9000000 },
       { "name": "4 star", "count": 6000000 },
-      { "name": "5 star", "count": 9000000 }
+      { "name": "3 star", "count": 1000000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "1 star", "count": 400000 }
     ]
   },
   {
@@ -148,17 +148,17 @@
     "title": "Dropbox",
     "companyName": "Dropbox, Inc.",
     "id": 9,
-    "description": "Cloud storage & file sharing. Store files securely and access them from any device. Share documents and folders with colleagues and friends. Collaborate in real-time with team members. Use Dropbox Paper for note-taking and project planning. Backup important files automatically. Sync files seamlessly across devices. Manage permissions and track changes efficiently.",
+    "description": "Cloud storage & file sharing. Dropbox is a secure cloud service that helps users store, sync, and share files across devices. It’s designed for individuals and teams to collaborate efficiently. With automatic backup and version control, files are always safe and accessible. Users can create shared folders and manage permissions for teammates. Integration with tools like Google Workspace, Slack, and Zoom improves workflow productivity. Dropbox Paper enhances document collaboration. The platform emphasizes reliability, simplicity, and enterprise-level security for users worldwide.",
     "size": 25.0,
     "reviews": "5K",
     "ratingAvg": 4.3,
     "downloads": "80M",
     "ratings": [
-      { "name": "1 star", "count": 150000 },
-      { "name": "2 star", "count": 100000 },
-      { "name": "3 star", "count": 300000 },
+      { "name": "5 star", "count": 3100000 },
       { "name": "4 star", "count": 1500000 },
-      { "name": "5 star", "count": 3100000 }
+      { "name": "3 star", "count": 300000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "1 star", "count": 150000 }
     ]
   },
   {
@@ -166,17 +166,17 @@
     "title": "LinkedIn",
     "companyName": "LinkedIn Corporation",
     "id": 10,
-    "description": "Professional networking. Connect with colleagues and industry professionals. Share your resume and achievements. Follow companies and stay updated with industry trends. Apply for jobs and receive recommendations. Post content and engage with professional communities. Use LinkedIn Learning for skill development. Network globally and enhance your career opportunities.",
+    "description": "Professional networking. LinkedIn is the world’s largest professional platform that connects job seekers, recruiters, and companies. It allows users to build resumes, showcase skills, and network with professionals. Businesses use it for branding, hiring, and B2B marketing. LinkedIn Learning provides online courses for career growth. The news feed helps users stay updated with industry trends and insights. It supports messaging, endorsements, and recommendations to enhance credibility. LinkedIn continues to be a vital tool for modern career development and global opportunities.",
     "size": 20.0,
     "reviews": "7K",
     "ratingAvg": 4.2,
-    "downloads": "10M",
+    "downloads": "11M",
     "ratings": [
-      { "name": "1 star", "count": 200000 },
-      { "name": "2 star", "count": 150000 },
-      { "name": "3 star", "count": 400000 },
+      { "name": "5 star", "count": 4500000 },
       { "name": "4 star", "count": 2000000 },
-      { "name": "5 star", "count": 4500000 }
+      { "name": "3 star", "count": 400000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "1 star", "count": 200000 }
     ]
   },
   {
@@ -184,17 +184,17 @@
     "title": "TikTok",
     "companyName": "ByteDance",
     "id": 11,
-    "description": "Short video platform. Create and share short, engaging videos easily. Explore trending content from global creators. Use filters, effects, and music to enhance videos. Participate in challenges and trends for fun engagement. Follow favorite creators and receive updates. Interact with likes, comments, and duets. Discover educational, entertainment, and lifestyle content daily.",
+    "description": "Short video platform. TikTok revolutionized social media with its short-form video format. Users can create and share entertaining clips with music, filters, and effects. The algorithm tailors a personalized feed based on user interests. It empowers creators to reach massive audiences worldwide. TikTok trends influence fashion, entertainment, and pop culture globally. It also offers live streaming, duets, and editing tools to enhance creativity. The platform encourages user expression while maintaining community guidelines. Its growth continues rapidly, appealing to younger generations everywhere.",
     "size": 28.0,
     "reviews": "14K",
     "ratingAvg": 4.4,
     "downloads": "3M",
     "ratings": [
-      { "name": "1 star", "count": 300000 },
-      { "name": "2 star", "count": 200000 },
-      { "name": "3 star", "count": 800000 },
+      { "name": "5 star", "count": 8300000 },
       { "name": "4 star", "count": 5000000 },
-      { "name": "5 star", "count": 8300000 }
+      { "name": "3 star", "count": 800000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "1 star", "count": 300000 }
     ]
   },
   {
@@ -202,17 +202,17 @@
     "title": "Telegram",
     "companyName": "Telegram Messenger",
     "id": 12,
-    "description": "Messaging with focus on speed & privacy. Send messages instantly with cloud-based sync. Share media and documents of any type securely. Create channels and groups for communities. Use secret chats with end-to-end encryption. Access messages across multiple devices. Utilize bots for automation and services. Customize themes, notifications, and stickers for personal experience.",
+    "description": "Messaging with focus on speed & privacy. Telegram is a cloud-based messenger app emphasizing privacy and performance. It allows users to send texts, media, files, and voice notes securely. With channels and groups supporting thousands of members, it’s ideal for communities. Telegram bots automate tasks, improving interaction and productivity. Secret chats use end-to-end encryption for enhanced safety. The app syncs seamlessly across devices, storing all data in the cloud. Customization options, themes, and stickers make communication more engaging. It’s fast, secure, and ad-free—trusted by millions worldwide.",
     "size": 22.0,
     "reviews": "11K",
     "ratingAvg": 4.6,
     "downloads": "1M",
     "ratings": [
-      { "name": "1 star", "count": 180000 },
-      { "name": "2 star", "count": 120000 },
-      { "name": "3 star", "count": 400000 },
+      { "name": "5 star", "count": 7500000 },
       { "name": "4 star", "count": 3000000 },
-      { "name": "5 star", "count": 7500000 }
+      { "name": "3 star", "count": 400000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "1 star", "count": 180000 }
     ]
   }
 ]

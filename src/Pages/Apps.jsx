@@ -10,8 +10,17 @@ const Apps = () => {
 
   // ⚡search work
   const [search, setSearch] = useState('');
-  // console.log(search);
+  const [searching, setSearching] = useState(false);
+
   const term = search.trim().toLowerCase();
+
+  // search loading
+  const handleSearch = (e) => {
+    setSearching(true);
+    setSearch(e.target.value);
+    setTimeout(() => setSearching(false), 100);
+  };
+
   const searchItems = term
     ? items.filter((item) => item.title.toLowerCase().includes(term))
     : items;
@@ -48,14 +57,18 @@ const Apps = () => {
           </svg>
           <input
             value={search}
-            onChange={(e) => setSearch(e.target.value)}
+            // onChange={(e) => setSearch(e.target.value)}
+            onChange={handleSearch}
             type="search"
             required
             placeholder="Search Apps"
           />
         </label>
       </div>
+
       {loading ? (
+        <Loading />
+      ) : searching ? (
         <Loading />
       ) : (
         <div>
