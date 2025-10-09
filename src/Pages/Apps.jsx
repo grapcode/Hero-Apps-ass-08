@@ -18,7 +18,7 @@ const Apps = () => {
   const handleSearch = (e) => {
     setSearching(true);
     setSearch(e.target.value);
-    setTimeout(() => setSearching(false), 100);
+    setTimeout(() => setSearching(false), 200);
   };
 
   const searchItems = term

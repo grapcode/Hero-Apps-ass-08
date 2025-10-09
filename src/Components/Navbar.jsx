@@ -10,7 +10,7 @@ const Navbar = () => {
         className={({ isActive }) =>
           `m-2 font-semibold ${
             isActive
-              ? ' underline bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text'
+              ? ' border-b border-[#632EE3] w-fit bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text'
               : 'text-black'
           }`
         }
@@ -22,7 +22,7 @@ const Navbar = () => {
         className={({ isActive }) =>
           `m-2 font-semibold ${
             isActive
-              ? ' underline bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text'
+              ? ' border-b border-[#632EE3] w-fit bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text'
               : 'text-black'
           }`
         }
@@ -34,7 +34,7 @@ const Navbar = () => {
         className={({ isActive }) =>
           `m-2 font-semibold ${
             isActive
-              ? ' underline bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text'
+              ? ' border-b border-[#632EE3] w-fit bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text'
               : 'text-black'
           }`
         }
