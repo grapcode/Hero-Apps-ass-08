@@ -214,5 +214,149 @@
       { "name": "2 star", "count": 120000 },
       { "name": "1 star", "count": 180000 }
     ]
+  },
+  {
+    "image": "https://i.ibb.co.com/HLTxVCpJ/snapchat-vector-social-media-icon-459124-527.jpg",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 13,
+    "description": "Multimedia messaging app. Snapchat allows users to send photos and videos that disappear after being viewed. Create and share Stories to your friends and followers. Explore augmented reality lenses and filters for fun interactions. Chat via text, voice, and video seamlessly. Discover content from publishers and trending topics daily. Participate in Bitmoji integration for personalized avatars. Maintain privacy with disappearing messages and controlled sharing options. Engage in creative communication in a dynamic, youthful environment.",
+    "size": 35.0,
+    "reviews": "10K",
+    "ratingAvg": 4.3,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "5 star", "count": 2500000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "1 star", "count": 150000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/5W0jJZXK/reddit-logo-578229-207.jpg",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 14,
+    "description": "Community discussion platform. Reddit is a social media and forum website with communities called subreddits. Users can post text, images, and links for discussion. Vote content up or down to determine visibility. Follow topics of interest from technology to entertainment. Participate in AMAs and live discussions. Engage in private chats and message users directly. Discover trending topics, news, and memes daily. The platform encourages knowledge sharing and diverse community interaction.",
+    "size": 40.0,
+    "reviews": "15K",
+    "ratingAvg": 4.5,
+    "downloads": "400M",
+    "ratings": [
+      { "name": "5 star", "count": 1800000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "1 star", "count": 100000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/9HHWcCGB/image.png",
+    "title": "Byte",
+    "companyName": "Byte, Inc.",
+    "id": 15,
+    "description": "Short looping video platform. Byte enables users to create 6-second looping videos easily. Share and explore creative, funny, or artistic clips. Follow creators and like, comment, or share their content. Discover trending loops and challenges. Use editing tools and audio integration for unique videos. Engage with a vibrant creative community. Build a personal profile showcasing your content. Perfect for bite-sized entertainment and creative expression.",
+    "size": 25.0,
+    "reviews": "8K",
+    "ratingAvg": 4.2,
+    "downloads": "50M",
+    "ratings": [
+      { "name": "5 star", "count": 1500000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "1 star", "count": 50000 }
+    ]
+  },
+  {
+    "image": "https://cdn.worldvectorlogo.com/logos/trello.svg",
+    "title": "Trello",
+    "companyName": "Atlassian",
+    "id": 16,
+    "description": "Project management tool. Trello helps organize tasks using boards, lists, and cards. Collaborate with team members in real-time. Assign tasks, set deadlines, and track progress visually. Use labels, checklists, and attachments for detailed management. Integrate with apps like Slack, Google Drive, and Jira. Access boards from mobile or desktop seamlessly. Automate workflows with Butler to save time. Trello is ideal for personal productivity, business projects, and collaborative planning.",
+    "size": 30.0,
+    "reviews": "12K",
+    "ratingAvg": 4.6,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "5 star", "count": 5000000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "1 star", "count": 100000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/4RvLdVck/image.png",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 17,
+    "description": "Video conferencing & webinars. Zoom allows virtual meetings, webinars, and video calls for businesses and individuals. Schedule meetings with easy links and passwords. Share screens, documents, and presentations seamlessly. Record sessions for later reference. Use breakout rooms for group discussions. Host large meetings with video and audio controls. Integrate with calendars, Slack, and other productivity tools. Zoom ensures smooth connectivity, security, and collaboration for remote work and online learning.",
+    "size": 45.0,
+    "reviews": "20K",
+    "ratingAvg": 4.7,
+    "downloads": "300M",
+    "ratings": [
+      { "name": "5 star", "count": 10000000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "1 star", "count": 150000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/PGjvC6vK/pngimg-com-discord-PNG8.png",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 18,
+    "description": "Voice, video, and text chat. Discord is a communication platform designed for communities, gamers, and groups. Create servers and channels for organized discussions. Chat via text, voice, or video seamlessly. Share media, files, and links securely. Integrate bots to automate moderation and engagement. Participate in community events and streaming activities. Customize server settings, roles, and notifications. Accessible on mobile, desktop, and web for cross-platform connectivity.",
+    "size": 40.0,
+    "reviews": "18K",
+    "ratingAvg": 4.5,
+    "downloads": "250M",
+    "ratings": [
+      { "name": "5 star", "count": 8000000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "1 star", "count": 150000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/4RTtyRvd/image.png",
+    "title": "Kahoot!",
+    "companyName": "Kahoot! AS",
+    "id": 19,
+    "description": "Game-based learning platform. Kahoot! allows teachers and students to create and play interactive quizzes. Engage participants with multiple-choice questions and polls. Track performance with detailed reports. Collaborate on learning through challenges and competitions. Integrate images, videos, and diagrams for engaging content. Use it in classrooms, remote learning, or team-building activities. Supports fun, interactive, and educational experiences for learners of all ages.",
+    "size": 25.0,
+    "reviews": "8K",
+    "ratingAvg": 4.6,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "5 star", "count": 3000000 },
+      { "name": "4 star", "count": 1500000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "1 star", "count": 50000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/HfcsQ1P3/image.png",
+    "title": "Figma",
+    "companyName": "Figma, Inc.",
+    "id": 20,
+    "description": "Interface design & prototyping tool. Figma enables designers to create UI/UX designs collaboratively. Work in real-time with teammates and stakeholders. Build wireframes, prototypes, and design systems easily. Integrate with plugins for icons, charts, and animations. Share designs via links for instant feedback. Supports vector editing, responsive design, and component libraries. Accessible on browser and desktop apps. Ideal for designers, developers, and product teams worldwide.",
+    "size": 30.0,
+    "reviews": "10K",
+    "ratingAvg": 4.7,
+    "downloads": "50M",
+    "ratings": [
+      { "name": "5 star", "count": 4000000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "1 star", "count": 100000 }
+    ]
   }
 ]
